@@ -14,6 +14,6 @@ sentencepiece>=0.2.0
 accelerate==0.29.1
 scikit-learn
 deepspeed>=0.14.1
-vllm==0.4.1
-ray[serve]==2.11.0
+vllm
+ray[serve]
 black

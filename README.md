@@ -4,7 +4,7 @@
     <img src="static/bert_labeler.png" width=300px>
 </div>
 
-Official code repo for **EfficientRAG: Efficient Retriever for Multi-Hop Question Answering**
+Code repo for EMNLP 2024 paper - **EfficientRAG: Efficient Retriever for Multi-Hop Question Answering**
 
 Efficient RAG is a new framework to train Labeler and Filter to learn to conduct multi-hop RAG without multiple LLM calls.
 
@@ -172,13 +172,11 @@ python src/efficientrag_qa.py \
 If you find this paper or code useful, please cite by:
 
 ```txt
-@misc{zhuang2024efficientragefficientretrievermultihop,
-      title={EfficientRAG: Efficient Retriever for Multi-Hop Question Answering},
-      author={Ziyuan Zhuang and Zhiyang Zhang and Sitao Cheng and Fangkai Yang and Jia Liu and Shujian Huang and Qingwei Lin and Saravan Rajmohan and Dongmei Zhang and Qi Zhang},
-      year={2024},
-      eprint={2408.04259},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2408.04259},
+@inproceedings{zhuang2024efficientrag,
+  title={EfficientRAG: Efficient Retriever for Multi-Hop Question Answering},
+  author={Zhuang, Ziyuan and Zhang, Zhiyang and Cheng, Sitao and Yang, Fangkai and Liu, Jia and Huang, Shujian and Lin, Qingwei and Rajmohan, Saravan and Zhang, Dongmei and Zhang, Qi},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages={3392--3411},
+  year={2024}
 }
 ```

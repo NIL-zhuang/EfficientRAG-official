@@ -11,8 +11,15 @@ Efficient RAG is a new framework to train Labeler and Filter to learn to conduct
 ## Updates
 
 * 2024-09-12 open source the code
+* 2025-03-04 release our data
 
 ## Setup
+
+You can now download our synthesized data from this [link](https://box.nju.edu.cn/f/a86b512077c7489b8da3/).
+
+You should unzip the `EfficientRAG.zip` file and place all the data under the `data` directory.
+Within this directory, the `negative_sampling_extracted` folder contains our final synthesized data, which is referenced in [2.4 Negative Sampling](https://github.com/NIL-zhuang/EfficientRAG-official?tab=readme-ov-file#24-negative-sampling).
+Additionally, the `efficient_rag` directory includes two folders: `labeler` and `filter`, which store the training data constructed for the model, as referenced in [2.5 Training Data](https://github.com/NIL-zhuang/EfficientRAG-official?tab=readme-ov-file#25-training-data).
 
 ### 1. Installation
 
